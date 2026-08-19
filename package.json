@@ -1,0 +1,41 @@
+{
+  "name": "@ggdna/dna-scripts",
+  "version": "0.1.0",
+  "description": "DNA layer: deterministic node scripts and their shared functions",
+  "keywords": [
+    "dna",
+    "helix",
+    "conventions",
+    "scaffolding"
+  ],
+  "homepage": "https://github.com/ggdna/dna_scripts",
+  "bugs": "https://github.com/ggdna/dna_scripts/issues",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ggdna/dna_scripts.git"
+  },
+  "type": "module",
+  "files": [
+    "dna",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test:dart": "dart test",
+    "test": "pnpm run test:dart",
+    "prepublishOnly": "pnpm run test",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "prettier": "^3.9.6"
+  }
+}
