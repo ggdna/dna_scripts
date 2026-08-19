@@ -1,6 +1,6 @@
 name: dna_scripts
 description: "DNA layer: deterministic node scripts and their shared functions"
-version: 0.1.0
+version: 0.2.0
 repository: https://github.com/ggdna/dna_scripts.git
 
 environment:
