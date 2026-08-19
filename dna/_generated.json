@@ -15,7 +15,7 @@
       "ecosystem": null,
       "resolvedVersion": null,
       "via": null,
-      "hash": "0x9ee08ef13ab4c8d3"
+      "hash": "0x97a76de8c8e53fb0"
     }
   ],
   "claude": {
@@ -54,7 +54,7 @@
     },
     {
       "path": "scripts/functions/get-repo-urls.js",
-      "hash": "0x4c7b3897973acec3"
+      "hash": "0xd101f8b49454b888"
     },
     {
       "path": "scripts/functions/get-version.js",
