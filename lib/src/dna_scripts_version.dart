@@ -9,4 +9,4 @@
 // coverage:ignore-file
 
 /// The version of the `dna_scripts` package.
-const String dnaScriptsVersion = '0.2.1';
+const String dnaScriptsVersion = '0.2.2';
