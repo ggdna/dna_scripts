@@ -82,10 +82,6 @@
       "hash": "0xa9daec4f3ea514b7"
     },
     {
-      "path": "scripts/setup-github-repo.js",
-      "hash": "0xff571fadb664af32"
-    },
-    {
       "path": "scripts/wait-for-pr.js",
       "hash": "0x1360c661984b78a8"
     }
