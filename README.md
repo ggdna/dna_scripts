@@ -35,8 +35,6 @@ deterministic given local git and file system state, no GitHub API calls.
   branch locally and on the remote once it is merged
 - `dna/scripts/rename-class.js` — renames every occurrence of a class
   and file name across the repo
-- `dna/scripts/setup-github-repo.js` — applies the branch protection
-  rules a new repo needs
 - `dna/scripts/wait-for-pr.js` — waits for the current pull request to
   merge
 
