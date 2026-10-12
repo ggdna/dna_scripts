@@ -5,5 +5,11 @@
 
   // No parent DNA. This layer is orthogonal: it carries only its own topic
   // and is combined with other layers by the consumer.
-  "layers": []
+  "layers": [],
+
+  // scripts/setup-github-repo.js makes dnaGitQuickCheckPipelineName a
+  // required status check. Its name differs per organization and there is
+  // no sensible default: every layer that lists this one sets it in its
+  // own dna/_vars.json.
+  "mustOverride": { "dnaGitQuickCheckPipelineName": true }
 }
