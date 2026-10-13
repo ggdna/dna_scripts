@@ -1,6 +1,6 @@
 {
   "name": "@ggdna/dna-scripts",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "description": "DNA layer: deterministic node scripts and their shared functions",
   "keywords": [
     "dna",
