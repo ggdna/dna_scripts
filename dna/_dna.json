@@ -1,9 +1,19 @@
 {
   // This package is a DNA layer: dna/ is hand-authored source and is the
   // last layer of its own instantiation.
-  "version": 1,
+  "version": 2,
 
   // No parent DNA. This layer is orthogonal: it carries only its own topic
   // and is combined with other layers by the consumer.
-  "layers": []
+  "layers": [],
+
+  // Both values name the organization and have no sensible default, so
+  // every layer listing this one sets them in its own dna/_vars.json:
+  // scripts/setup-github-repo.js makes dnaGitQuickCheckPipelineName a
+  // required status check, and dnaCopyrightHolder goes into every
+  // copyright header.
+  "mustOverride": {
+    "dnaGitQuickCheckPipelineName": true,
+    "dnaCopyrightHolder": true
+  }
 }
