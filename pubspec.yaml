@@ -1,5 +1,5 @@
 name: dna_scripts
-description: "DNA layer: deterministic node scripts and their shared functions"
+description: "Gives a repo the node scripts that automate its git and GitHub workflow, and the functions they share."
 version: 0.3.0
 repository: https://github.com/ggdna/dna_scripts.git
 

@@ -1,7 +1,7 @@
 {
   "name": "@ggdna/dna-scripts",
   "version": "0.3.0",
-  "description": "DNA layer: deterministic node scripts and their shared functions",
+  "description": "Gives a repo the node scripts that automate its git and GitHub workflow, and the functions they share.",
   "keywords": [
     "dna",
     "helix",
