@@ -5,7 +5,7 @@
       "name": "base",
       "package": "helix",
       "ecosystem": null,
-      "resolvedVersion": "1.12.0",
+      "resolvedVersion": "1.15.2",
       "via": null,
       "hash": "0x6883da335b415f9d"
     },
@@ -15,19 +15,23 @@
       "ecosystem": null,
       "resolvedVersion": null,
       "via": null,
-      "hash": "0xe3092339b83504a1"
+      "hash": "0xd453ae86e1f6b5e9"
     }
   ],
   "claude": {
     "claudeMdInclude": null,
     "claudeMdFromDna": false
   },
-  "baseVersion": "1.12.0",
+  "baseVersion": "1.15.2",
   "baseHash": "0x6883da335b415f9d",
   "instances": [
     {
       "path": ".claude/skills/scripts/SKILL.md",
       "hash": "0xa12593aa0af31ed2"
+    },
+    {
+      "path": ".pubignore",
+      "hash": "0xca75a2bf57940291"
     },
     {
       "path": "doc/guides/scripts-guide.md",
