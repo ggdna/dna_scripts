@@ -5,7 +5,7 @@
       "name": "base",
       "package": "helix",
       "ecosystem": null,
-      "resolvedVersion": "1.16.0",
+      "resolvedVersion": "1.15.2",
       "via": null,
       "hash": "0x6883da335b415f9d"
     },
@@ -15,21 +15,23 @@
       "ecosystem": null,
       "resolvedVersion": null,
       "via": null,
-      "hash": "0x8bfe7a26d113f04b"
+      "hash": "0xd453ae86e1f6b5e9"
     }
   ],
   "claude": {
     "claudeMdInclude": null,
-    "claudeMdFromDna": false,
-    "blockHash": null
+    "claudeMdFromDna": false
   },
-  "baseVersion": "1.16.0",
+  "baseVersion": "1.15.2",
   "baseHash": "0x6883da335b415f9d",
-  "configHash": "0x1ac100b4eebb2d9f",
   "instances": [
     {
       "path": ".claude/skills/scripts/SKILL.md",
       "hash": "0xa12593aa0af31ed2"
+    },
+    {
+      "path": ".pubignore",
+      "hash": "0xca75a2bf57940291"
     },
     {
       "path": "doc/guides/scripts-guide.md",
@@ -45,7 +47,7 @@
     },
     {
       "path": "scripts/functions/current-branch.js",
-      "hash": "0x6610874731cac4e8"
+      "hash": "0xb9ebbadf45893278"
     },
     {
       "path": "scripts/functions/directories.js",
@@ -65,11 +67,11 @@
     },
     {
       "path": "scripts/functions/is-main-up-to-date.js",
-      "hash": "0x305e8c2e6acee6d6"
+      "hash": "0xe1ab1826d0ddd039"
     },
     {
       "path": "scripts/functions/pull-request-url.js",
-      "hash": "0xf6afe906fbd542f1"
+      "hash": "0x5398755a61a59928"
     },
     {
       "path": "scripts/functions/run-command.js",

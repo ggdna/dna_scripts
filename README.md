@@ -40,6 +40,12 @@ deterministic given local git and file system state, no GitHub API calls.
 - `dna/scripts/wait-for-pr.js` — waits for the current pull request to
   merge
 
+## Publishing
+
+`dna/dot-pubignore` keeps `/doc/guides/` and `/scripts/` out of the package
+`dart pub publish` uploads. helix joins it with the ignore files of the other
+layers into the project's `.pubignore`.
+
 ## Layers
 
 Orthogonal: this layer carries only its own topic and is combined with
