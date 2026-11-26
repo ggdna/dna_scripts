@@ -5,8 +5,14 @@ deterministic given local git and file system state, no GitHub API calls.
 
 ## Guides
 
-- `dna/doc/guides/scripts-guide.md` — what belongs here, what does not,
+- `dna/doc/en/guides/scripts-guide.md` — what belongs here, what does not,
   and how to add a script
+
+Every file of `dna/doc/en/` also ships in German and Farsi, with the
+same name:
+
+- `dna/doc/de/guides/`
+- `dna/doc/fa/guides/`
 
 ## Skills
 
@@ -42,7 +48,7 @@ deterministic given local git and file system state, no GitHub API calls.
 
 ## Publishing
 
-`dna/dot-pubignore` keeps `/doc/guides/` and `/scripts/` out of the package
+`dna/dot-pubignore` keeps `/doc/*/guides/` and `/scripts/` out of the package
 `dart pub publish` uploads. helix joins it with the ignore files of the other
 layers into the project's `.pubignore`.
 
