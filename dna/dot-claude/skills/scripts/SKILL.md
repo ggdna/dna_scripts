@@ -15,24 +15,24 @@ found in the LICENSE file in the root of this package.
 
 Read `doc/guides/scripts-guide.md` and follow it.
 
-## 1. Check every script parses
+## @script 1. Check every script parses
 
 Run `node --check` on each file in `scripts/` and `scripts/functions/`.
 
 Report any file that fails.
 
-## 2. Check the imports resolve
+## @imports 2. Check the imports resolve
 
 For each `import … from './functions/…'`, verify the target file exists
 and exports the named symbol.
 
 Report an import that resolves to nothing.
 
-## 3. Check for duplication
+## @duplication 3. Check for duplication
 
 Report a `git`, `fs` or `child_process` call that is copied across two
 scripts instead of living in one shared function.
 
-## 4. Fix
+## @fix 4. Fix
 
 Write the corrections, then show the diff before committing.
