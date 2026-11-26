@@ -5,7 +5,7 @@
       "name": "base",
       "package": "helix",
       "ecosystem": null,
-      "resolvedVersion": "1.16.0",
+      "resolvedVersion": "1.18.0",
       "via": null,
       "hash": "0x6883da335b415f9d"
     },
@@ -15,7 +15,7 @@
       "ecosystem": null,
       "resolvedVersion": null,
       "via": null,
-      "hash": "0x1f2540a9e6a05c6e"
+      "hash": "0x9463bfb42bfd4adf"
     }
   ],
   "claude": {
@@ -23,21 +23,30 @@
     "claudeMdFromDna": false,
     "blockHash": null
   },
-  "baseVersion": "1.16.0",
+  "baseVersion": "1.18.0",
   "baseHash": "0x6883da335b415f9d",
   "configHash": "0xb4650cce9f80108f",
+  "gitignoreHash": "0x1b0ee74d5e941279",
   "instances": [
     {
       "path": ".claude/skills/scripts/SKILL.md",
-      "hash": "0xa12593aa0af31ed2"
+      "hash": "0xafadcde5bcc41ba1"
     },
     {
       "path": ".pubignore",
-      "hash": "0xde4a91eb33171faf"
+      "hash": "0x81aaee5cc06c02bc"
     },
     {
-      "path": "doc/guides/scripts-guide.md",
+      "path": "doc/de/guides/scripts-guide.md",
+      "hash": "0x383c9cd12612f284"
+    },
+    {
+      "path": "doc/en/guides/scripts-guide.md",
       "hash": "0x426857c389049083"
+    },
+    {
+      "path": "doc/fa/guides/scripts-guide.md",
+      "hash": "0xf3ae7d988f157168"
     },
     {
       "path": "scripts/delete-feature-branch.js",
